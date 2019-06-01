@@ -20,7 +20,7 @@ Sample URL's:(check proof folder)
 
 The code contains below.
 1. API endpoint to return queried data
-2. tokeniser to convert text to tokens
+2. tokeniser to convert text to tokens (pretty basic one. should use NLTK)
 3. indexing to index data(inverted index)
 
 takes around 0.4s to build index for 2000 reviews and <100ms to return response.
